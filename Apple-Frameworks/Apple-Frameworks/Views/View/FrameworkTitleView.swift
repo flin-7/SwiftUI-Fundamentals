@@ -14,9 +14,9 @@ struct FrameworkTitleView: View {
         VStack {
             Image(framework.imageName)
                 .resizable()
-                .frame(width: 90, height: 90)
+                .frame(width: 150, height: 150)
             Text(framework.name)
-                .font(.title2)
+                .font(.title)
                 .fontWeight(.semibold)
                 .scaledToFit()
                 .minimumScaleFactor(0.6)
